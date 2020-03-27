@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.dhcc.order.common.EncryptUtil;
-import com.dhcc.order.model.UserDTO;
+import com.dhcc.order.entity.User;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -36,13 +36,13 @@ public class TokenAuthenticationFilter extends OncePerRequestFilter {
 //            UserDTO userDTO = new UserDTO();
 //            String principal = jsonObject.getString("principal");
 //            userDTO.setUsername(principal);
-            UserDTO userDTO = JSON.parseObject(jsonObject.getString("principal"), UserDTO.class);
+            User user = JSON.parseObject(jsonObject.getString("principal"), User.class);
             //用户权限
             JSONArray authoritiesArray = jsonObject.getJSONArray("authorities");
             String[] authorities = authoritiesArray.toArray(new String[authoritiesArray.size()]);
             //将用户信息和权限填充 到用户身份token对象中
             UsernamePasswordAuthenticationToken authenticationToken
-                    = new UsernamePasswordAuthenticationToken(userDTO,null, AuthorityUtils.createAuthorityList(authorities));
+                    = new UsernamePasswordAuthenticationToken(user,null, AuthorityUtils.createAuthorityList(authorities));
             authenticationToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(httpServletRequest));
             //将authenticationToken填充到安全上下文
             SecurityContextHolder.getContext().setAuthentication(authenticationToken);

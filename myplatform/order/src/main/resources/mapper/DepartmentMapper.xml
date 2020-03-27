@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dhcc.order.mapper.DepartmentMapper">
+    <!-- 将java对象属性与表的字段进行对应 -->
+    <resultMap id="BaseResultMap" type="com.dhcc.order.entity.Department">
+        <result column="id" jdbcType="INTEGER" property="id" />
+        <result column="name" jdbcType="VARCHAR" property="name" />
+        <result column="remark" jdbcType="VARCHAR" property="remark" />
+        <result column="create_date" jdbcType="VARCHAR" property="createDate" />
+        <result column="state" jdbcType="VARCHAR" property="state" />
+    </resultMap>
+    <!-- 进行插入操作 -->
+    <insert id="insertDepa" parameterType="com.dhcc.order.entity.Department">
+		INSERT INTO department
+		(ID,name,remark,create_date,state)
+		VALUES(#{id},#{name},#{remark},#{createDate},#{state})
+	</insert>
+    <!-- 根据id进行跟新 -->
+    <update id="updateDepa" parameterType="com.dhcc.order.entity.Department">
+		UPDATE department SET
+		NAME=#{name},remark=#{remark},create_date=#{createDate},state=#{state}
+		WHERE ID=#{id}
+	</update>
+    <!-- 根据id进行删除 -->
+    <delete id="delDepaById" parameterType="Integer">
+		DELETE FROM department WHERE ID=#{id};
+	</delete>
+    <!-- 根据id进行查询 -->
+    <select id="getDepaById" resultType="com.dhcc.order.entity.Department">
+        select * from department where id = #{id}
+    </select>
+    <!-- 根据状态查询，实现分页 -->
+    <select id="getDepaPageBystate" parameterType="map" resultType="com.dhcc.order.entity.Department">
+	    SELECT * FROM department WHERE state=#{state}
+		ORDER BY ${orderBy} ${orderDir}
+		limit #{beginIndex},#{pageSize}
+	</select>
+
+</mapper>

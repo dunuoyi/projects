@@ -1,4 +1,4 @@
-package com.dhcc.order.model;
+package com.dhcc.order.entity;
 
 
 import lombok.Data;
@@ -7,7 +7,7 @@ import lombok.Data;
  * 用户信息
  */
 @Data
-public class UserDTO {
+public class User {
 
     /**
      * 用户id
@@ -18,6 +18,10 @@ public class UserDTO {
      */
     private String username;
 
+    /**
+     * 密码
+     */
+    private String password;
     /**
      * 手机号
      */

@@ -1,6 +1,6 @@
 package com.dhcc.order.controller;
 
-import com.dhcc.order.model.UserDTO;
+import com.dhcc.order.entity.User;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,8 +17,8 @@ public class OrderController {
     @PreAuthorize("hasAuthority('p1')")//拥有p1权限方可访问此url
     public String r1(){
         //获取用户身份信息
-        UserDTO userDTO = (UserDTO) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        return userDTO.getUsername()+"访问资源1";
+        User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        return user.getUsername()+"访问资源1";
     }
 
 

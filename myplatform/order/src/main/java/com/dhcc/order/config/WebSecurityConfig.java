@@ -1,9 +1,12 @@
 package com.dhcc.order.config;
 
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.web.client.RestTemplate;
 
 /**
  * @author Administrator
@@ -12,7 +15,6 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 @Configuration
 @EnableGlobalMethodSecurity(securedEnabled = true,prePostEnabled = true)
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
-
 
     //安全拦截机制（最重要，拦截配置在控制层controller的方法上）
     @Override

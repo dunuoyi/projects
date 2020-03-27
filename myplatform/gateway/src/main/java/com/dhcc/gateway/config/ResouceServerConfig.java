@@ -55,7 +55,9 @@ public class ResouceServerConfig {
         public void configure(HttpSecurity http) throws Exception {
             http
                     .authorizeRequests()
+                    .antMatchers("/order/login/**").permitAll()
                     .antMatchers("/order/**").access("#oauth2.hasScope('ROLE_API')");
+
         }
     }
 
