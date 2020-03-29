@@ -1,0 +1,33 @@
+spring:
+  cloud:
+    #使用nacos网关作为注册服务发现
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+      discovery:
+        server-addr: 127.0.0.1:8848
+    #使用netinel作为熔断器
+    sentinel:
+      transport:
+        port: 8721
+        dashboard: localhost:53000
+    #路由网关配置
+    gateway:
+      #设置与注册服务发现组件结合，这样可以采用服务站的路由策略
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: uaa-service
+          uri: lb://uaa-service
+          predicates:
+            - Path= /uaa/**
+        - id: order-service
+          uri: lb://order-service
+          predicates:
+            - Path= /order/**
+
+  application:
+    name: gateway-server
+
+

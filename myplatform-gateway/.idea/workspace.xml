@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3017982-f293-4dd2-9f49-0d4a8be0f08d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\MavenRepos" />
+        <option name="mavenHome" value="E:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\MavenRepos\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZVVNUnVmTxaFd96ctDMLhFzqgg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dhcc.order.config" />
+      <recent name="com.dhcc.gateway.config" />
+      <recent name="com.dhcc.uaa.controller" />
+      <recent name="com.dhcc.uaa" />
+      <recent name="com.dhcc.uaa.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\document\svnproject\myplatform\gateway\src\main\java\com\dhcc\gateway\config" />
+      <recent name="D:\document\svnproject\myplatform\gateway\src\main\resources" />
+      <recent name="D:\document\svnproject\myplatform\uaa\src\main\resources" />
+      <recent name="D:\document\svnproject\myplatform\order\src\main\resources" />
+      <recent name="D:\document\svnproject\myplatform\uaa\src\main\java\com\dhcc\uaa" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UAAServer">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="myplatform-gateway" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="myplatform-gateway" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dhcc.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dhcc.gateway.GatewayServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dhcc.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dhcc.order.OrderServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UAAServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="uaa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dhcc.uaa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dhcc.uaa.UAAServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0.451" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_Default_(Template)_Project" />
+        <option name="HTTP_PORT" value="8080" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54994" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.GatewayServer" />
+      <item itemvalue="Spring Boot.OrderServer" />
+      <item itemvalue="Spring Boot.UAAServer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OrderServer" />
+        <item itemvalue="Spring Boot.UAAServer" />
+        <item itemvalue="Spring Boot.GatewayServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.19000892" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3017982-f293-4dd2-9f49-0d4a8be0f08d" name="Default Changelist" comment="" />
+      <created>1584924208477</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584924208477</updated>
+      <workItem from="1584924211537" duration="5593000" />
+      <workItem from="1584931082378" duration="13826000" />
+      <workItem from="1585182092418" duration="2255000" />
+      <workItem from="1585182098664" duration="763000" />
+      <workItem from="1585278994956" duration="6669000" />
+      <workItem from="1585303367662" duration="10577000" />
+      <workItem from="1585355938161" duration="21131000" />
+      <workItem from="1585440273423" duration="22511000" />
+      <workItem from="1585476849024" duration="3145000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1585463038541">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585463038541" />
+    <state x="224" y="25" width="668" height="484" key="FileChooserDialogImpl" timestamp="1585440424676">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="224" y="25" width="668" height="484" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585440424676" />
+    <state width="907" height="156" key="GridCell.Tab.0.bottom" timestamp="1585486861794">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="907" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585486861794" />
+    <state width="907" height="156" key="GridCell.Tab.0.center" timestamp="1585486861794">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="907" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585486861794" />
+    <state width="907" height="156" key="GridCell.Tab.0.left" timestamp="1585486861794">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="907" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585486861794" />
+    <state width="907" height="156" key="GridCell.Tab.0.right" timestamp="1585486861794">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="907" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585486861794" />
+    <state width="907" height="156" key="GridCell.Tab.1.bottom" timestamp="1585486861795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="907" height="156" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585486861795" />
+    <state width="907" height="156" key="GridCell.Tab.1.center" timestamp="1585486861794">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="907" height="156" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585486861794" />
+    <state width="907" height="156" key="GridCell.Tab.1.left" timestamp="1585486861794">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="907" height="156" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585486861794" />
+    <state width="907" height="156" key="GridCell.Tab.1.right" timestamp="1585486861794">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="907" height="156" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585486861794" />
+    <state x="323" y="67" key="NewModule_or_Project.wizard" timestamp="1585184800705">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="323" y="67" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1585184800705" />
+    <state x="404" y="105" width="540" height="524" key="StructurePopup" timestamp="1585473383583">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="404" y="105" width="540" height="524" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1585473383583" />
+    <state x="115" y="111" key="new project wizard" timestamp="1585366052566">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="115" y="111" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585366052566" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585358275260">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585358275260" />
+  </component>
+</project>
