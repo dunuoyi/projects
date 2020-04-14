@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dhcc.jcpt.mapper.UserMapper">
+    <!-- 将java对象属性与表的字段进行对应 -->
+    <resultMap id="BaseResultMap" type="com.dhcc.jcpt.entity.User">
+        <result column="id" jdbcType="INTEGER" property="id" />
+        <result column="username" jdbcType="VARCHAR" property="username" />
+        <result column="fullname" jdbcType="VARCHAR" property="fullname" />
+        <result column="mobile" jdbcType="VARCHAR" property="mobile" />
+        <collection property="permList" javaType="ArrayList"  column="id"
+                    ofType="com.dhcc.entity.Permission" select="queryPermissionListByScheSid"/>
+
+    </resultMap>
+    <!-- 进行插入操作 -->
+    <select id="getUserByUserName" resultMap="BaseResultMap" parameterType="string">
+		select * from t_user where username=#{username}
+	</select>
+
+    <select id="queryPermissionListByScheSid" resultType="com.dhcc.jcpt.entity.Permission" parameterType="java.util.HashMap">
+        SELECT * FROM t_permission
+        WHERE id IN(
+            SELECT permission_id FROM t_role_permission WHERE role_id in(
+                SELECT role_id FROM t_user_role WHERE user_id=#{id}
+            )
+        );
+    </select>
+
+
+
+
+</mapper>

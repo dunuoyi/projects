@@ -10,3 +10,9 @@
 
 
 3、distributed-security-simple实现单个springboot程序的认证授权，一个基于springsecurity，一个基于拦截器
+
+
+4、exam-client，对接微信小例子
+
+
+5、jcpt普通的springmvc，实现权限配置例子
